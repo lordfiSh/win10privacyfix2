@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(win10privacyfix2));
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.c_service_diag1 = new System.Windows.Forms.CheckBox();
             this.pb = new System.Windows.Forms.ProgressBar();
             this.b_check = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
@@ -58,10 +58,10 @@
             this.c_p2p = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
+            this.c_service_dmw1 = new System.Windows.Forms.CheckBox();
             this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
+            this.c_service_geo1 = new System.Windows.Forms.CheckBox();
+            this.c_service_diag2 = new System.Windows.Forms.CheckBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.b_pri_ads = new System.Windows.Forms.Button();
             this.b_pri_local = new System.Windows.Forms.Button();
@@ -97,6 +97,10 @@
             this.checkBox31 = new System.Windows.Forms.CheckBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.infotext = new System.Windows.Forms.Label();
+            this.c_misc_onedrive = new System.Windows.Forms.CheckBox();
+            this.b_misc_onedrive = new System.Windows.Forms.Button();
+            this.c_misc_god = new System.Windows.Forms.CheckBox();
+            this.b_misc_god = new System.Windows.Forms.Button();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -105,16 +109,16 @@
             this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
-            // checkBox1
+            // c_service_diag1
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Enabled = false;
-            this.checkBox1.Location = new System.Drawing.Point(6, 19);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(152, 17);
-            this.checkBox1.TabIndex = 0;
-            this.checkBox1.Text = "DiagTrack Service State...";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.c_service_diag1.AutoSize = true;
+            this.c_service_diag1.Enabled = false;
+            this.c_service_diag1.Location = new System.Drawing.Point(6, 19);
+            this.c_service_diag1.Name = "c_service_diag1";
+            this.c_service_diag1.Size = new System.Drawing.Size(152, 17);
+            this.c_service_diag1.TabIndex = 0;
+            this.c_service_diag1.Text = "DiagTrack Service State...";
+            this.c_service_diag1.UseVisualStyleBackColor = true;
             // 
             // pb
             // 
@@ -242,11 +246,11 @@
             this.groupBox1.Controls.Add(this.c_p2p);
             this.groupBox1.Controls.Add(this.checkBox7);
             this.groupBox1.Controls.Add(this.checkBox6);
-            this.groupBox1.Controls.Add(this.checkBox5);
+            this.groupBox1.Controls.Add(this.c_service_dmw1);
             this.groupBox1.Controls.Add(this.checkBox4);
-            this.groupBox1.Controls.Add(this.checkBox3);
-            this.groupBox1.Controls.Add(this.checkBox2);
-            this.groupBox1.Controls.Add(this.checkBox1);
+            this.groupBox1.Controls.Add(this.c_service_geo1);
+            this.groupBox1.Controls.Add(this.c_service_diag2);
+            this.groupBox1.Controls.Add(this.c_service_diag1);
             this.groupBox1.Location = new System.Drawing.Point(12, 28);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(320, 276);
@@ -411,16 +415,16 @@
             this.checkBox6.Text = "dmwappushservice Service State...";
             this.checkBox6.UseVisualStyleBackColor = true;
             // 
-            // checkBox5
+            // c_service_dmw1
             // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Enabled = false;
-            this.checkBox5.Location = new System.Drawing.Point(6, 111);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(193, 17);
-            this.checkBox5.TabIndex = 4;
-            this.checkBox5.Text = "dmwappushservice Service State...";
-            this.checkBox5.UseVisualStyleBackColor = true;
+            this.c_service_dmw1.AutoSize = true;
+            this.c_service_dmw1.Enabled = false;
+            this.c_service_dmw1.Location = new System.Drawing.Point(6, 111);
+            this.c_service_dmw1.Name = "c_service_dmw1";
+            this.c_service_dmw1.Size = new System.Drawing.Size(193, 17);
+            this.c_service_dmw1.TabIndex = 4;
+            this.c_service_dmw1.Text = "dmwappushservice Service State...";
+            this.c_service_dmw1.UseVisualStyleBackColor = true;
             // 
             // checkBox4
             // 
@@ -433,27 +437,27 @@
             this.checkBox4.Text = "Geolocation Service Startup....";
             this.checkBox4.UseVisualStyleBackColor = true;
             // 
-            // checkBox3
+            // c_service_geo1
             // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Enabled = false;
-            this.checkBox3.Location = new System.Drawing.Point(6, 65);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(171, 17);
-            this.checkBox3.TabIndex = 2;
-            this.checkBox3.Text = "Geolocation Service Startup....";
-            this.checkBox3.UseVisualStyleBackColor = true;
+            this.c_service_geo1.AutoSize = true;
+            this.c_service_geo1.Enabled = false;
+            this.c_service_geo1.Location = new System.Drawing.Point(6, 65);
+            this.c_service_geo1.Name = "c_service_geo1";
+            this.c_service_geo1.Size = new System.Drawing.Size(171, 17);
+            this.c_service_geo1.TabIndex = 2;
+            this.c_service_geo1.Text = "Geolocation Service Startup....";
+            this.c_service_geo1.UseVisualStyleBackColor = true;
             // 
-            // checkBox2
+            // c_service_diag2
             // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Enabled = false;
-            this.checkBox2.Location = new System.Drawing.Point(6, 42);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(152, 17);
-            this.checkBox2.TabIndex = 1;
-            this.checkBox2.Text = "DiagTrack Service State...";
-            this.checkBox2.UseVisualStyleBackColor = true;
+            this.c_service_diag2.AutoSize = true;
+            this.c_service_diag2.Enabled = false;
+            this.c_service_diag2.Location = new System.Drawing.Point(6, 42);
+            this.c_service_diag2.Name = "c_service_diag2";
+            this.c_service_diag2.Size = new System.Drawing.Size(152, 17);
+            this.c_service_diag2.TabIndex = 1;
+            this.c_service_diag2.Text = "DiagTrack Service State...";
+            this.c_service_diag2.UseVisualStyleBackColor = true;
             // 
             // groupBox2
             // 
@@ -572,6 +576,7 @@
             this.b_pri_tele.TabIndex = 15;
             this.b_pri_tele.Text = "fix";
             this.b_pri_tele.UseVisualStyleBackColor = true;
+            this.b_pri_tele.Click += new System.EventHandler(this.b_pri_tele_Click);
             // 
             // b_pri_freq
             // 
@@ -799,6 +804,10 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.Controls.Add(this.b_misc_god);
+            this.groupBox4.Controls.Add(this.c_misc_god);
+            this.groupBox4.Controls.Add(this.b_misc_onedrive);
+            this.groupBox4.Controls.Add(this.c_misc_onedrive);
             this.groupBox4.Controls.Add(this.button34);
             this.groupBox4.Controls.Add(this.checkBox31);
             this.groupBox4.Location = new System.Drawing.Point(904, 28);
@@ -847,6 +856,49 @@
             this.infotext.Size = new System.Drawing.Size(0, 13);
             this.infotext.TabIndex = 0;
             // 
+            // c_misc_onedrive
+            // 
+            this.c_misc_onedrive.AutoSize = true;
+            this.c_misc_onedrive.Enabled = false;
+            this.c_misc_onedrive.Location = new System.Drawing.Point(6, 42);
+            this.c_misc_onedrive.Name = "c_misc_onedrive";
+            this.c_misc_onedrive.Size = new System.Drawing.Size(107, 17);
+            this.c_misc_onedrive.TabIndex = 15;
+            this.c_misc_onedrive.Text = "One Drive Status";
+            this.c_misc_onedrive.UseVisualStyleBackColor = true;
+            // 
+            // b_misc_onedrive
+            // 
+            this.b_misc_onedrive.Enabled = false;
+            this.b_misc_onedrive.Location = new System.Drawing.Point(124, 39);
+            this.b_misc_onedrive.Name = "b_misc_onedrive";
+            this.b_misc_onedrive.Size = new System.Drawing.Size(30, 20);
+            this.b_misc_onedrive.TabIndex = 16;
+            this.b_misc_onedrive.Text = "fix";
+            this.b_misc_onedrive.UseVisualStyleBackColor = true;
+            // 
+            // c_misc_god
+            // 
+            this.c_misc_god.AutoSize = true;
+            this.c_misc_god.Enabled = false;
+            this.c_misc_god.Location = new System.Drawing.Point(6, 68);
+            this.c_misc_god.Name = "c_misc_god";
+            this.c_misc_god.Size = new System.Drawing.Size(72, 17);
+            this.c_misc_god.TabIndex = 17;
+            this.c_misc_god.Text = "Godmode";
+            this.c_misc_god.UseVisualStyleBackColor = true;
+            // 
+            // b_misc_god
+            // 
+            this.b_misc_god.Enabled = false;
+            this.b_misc_god.Location = new System.Drawing.Point(124, 62);
+            this.b_misc_god.Name = "b_misc_god";
+            this.b_misc_god.Size = new System.Drawing.Size(30, 20);
+            this.b_misc_god.TabIndex = 18;
+            this.b_misc_god.Text = "fix";
+            this.b_misc_god.UseVisualStyleBackColor = true;
+            this.b_misc_god.Click += new System.EventHandler(this.b_misc_god_Click);
+            // 
             // win10privacyfix2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -886,7 +938,7 @@
 
         #endregion
 
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox c_service_diag1;
         private System.Windows.Forms.ProgressBar pb;
         private System.Windows.Forms.Button b_check;
         private System.Windows.Forms.ToolStrip toolStrip1;
@@ -895,8 +947,8 @@
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
         private System.Windows.Forms.ToolStripButton b_blog;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox2;
+        private System.Windows.Forms.CheckBox c_service_geo1;
+        private System.Windows.Forms.CheckBox c_service_diag2;
         private System.Windows.Forms.Button b_diag;
         private System.Windows.Forms.Button b_geo;
         private System.Windows.Forms.Button b_dmw;
@@ -912,7 +964,7 @@
         private System.Windows.Forms.CheckBox c_p2p;
         private System.Windows.Forms.CheckBox checkBox7;
         private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.CheckBox checkBox5;
+        private System.Windows.Forms.CheckBox c_service_dmw1;
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Button b_pri_freq;
         private System.Windows.Forms.CheckBox c_pri_tele;
@@ -954,6 +1006,10 @@
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.Label infotext;
+        private System.Windows.Forms.Button b_misc_onedrive;
+        private System.Windows.Forms.CheckBox c_misc_onedrive;
+        private System.Windows.Forms.Button b_misc_god;
+        private System.Windows.Forms.CheckBox c_misc_god;
     }
 }
 

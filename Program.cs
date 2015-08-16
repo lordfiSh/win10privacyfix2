@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Security.Principal;
 
 namespace win10privacyfix2
 {
@@ -16,7 +17,19 @@ namespace win10privacyfix2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new win10privacyfix2());
+            if (new WindowsPrincipal(WindowsIdentity.GetCurrent()).IsInRole(WindowsBuiltInRole.Administrator))
+            {
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new win10privacyfix2());
+            }
+            else
+            {
+                MessageBox.Show("This application needs administrator privileges to run properly.");
+          
+            }
+
+            
         }
     }
 }

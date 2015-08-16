@@ -15,3 +15,4 @@ C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\wi
 C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\ksf\win10privacyfix2.resources.dll
 C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.exe
 C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.pdb
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.csprojResolveAssemblyReference.cache
