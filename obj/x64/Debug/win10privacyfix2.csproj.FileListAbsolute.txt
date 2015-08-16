@@ -1,0 +1,17 @@
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\bin\x64\Debug\win10privacyfix2.exe.config
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\bin\x64\Debug\win10privacyfix2.exe
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\bin\x64\Debug\win10privacyfix2.pdb
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\bin\x64\Debug\bin\win10privacyfix2.resources.dll
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\bin\x64\Debug\de\win10privacyfix2.resources.dll
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\bin\x64\Debug\ksf\win10privacyfix2.resources.dll
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.win10privacyfix2.resources
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.Properties.Resources.resources
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.win10privacyfix2.bin.resources
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.win10privacyfix2.de.resources
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.win10privacyfix2.ksf.resources
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.csproj.GenerateResource.Cache
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\bin\win10privacyfix2.resources.dll
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\de\win10privacyfix2.resources.dll
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\ksf\win10privacyfix2.resources.dll
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.exe
+C:\Users\yourname_here\Documents\Visual Studio 2015\Projects\win10privacyfix2\win10privacyfix2\obj\x64\Debug\win10privacyfix2.pdb
