@@ -34,11 +34,14 @@
             this.b_check = new System.Windows.Forms.Button();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
             this.b_blog = new System.Windows.Forms.ToolStripButton();
+            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.b_de = new System.Windows.Forms.ToolStripButton();
             this.b_us = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.b_diag = new System.Windows.Forms.Button();
             this.b_geo = new System.Windows.Forms.Button();
@@ -92,14 +95,14 @@
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.button34 = new System.Windows.Forms.Button();
             this.checkBox31 = new System.Windows.Forms.CheckBox();
-            this.toolStripButton1 = new System.Windows.Forms.ToolStripButton();
-            this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.groupBox5 = new System.Windows.Forms.GroupBox();
+            this.infotext = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
             this.groupBox4.SuspendLayout();
+            this.groupBox5.SuspendLayout();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -159,6 +162,16 @@
             this.b_blog.ToolTipText = "https://wiiare.in/win10fix";
             this.b_blog.Click += new System.EventHandler(this.b_blog_Click);
             // 
+            // toolStripButton1
+            // 
+            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
+            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.toolStripButton1.Name = "toolStripButton1";
+            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
+            this.toolStripButton1.Text = "reddit thread";
+            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click_1);
+            // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
@@ -199,6 +212,18 @@
             this.toolStripButton4.Name = "toolStripButton4";
             this.toolStripButton4.Size = new System.Drawing.Size(23, 22);
             this.toolStripButton4.Text = "switch to fr";
+            // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripLabel1
+            // 
+            this.toolStripLabel1.Name = "toolStripLabel1";
+            this.toolStripLabel1.Size = new System.Drawing.Size(51, 22);
+            this.toolStripLabel1.Text = "Licenses";
+            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
             // 
             // groupBox1
             // 
@@ -454,7 +479,7 @@
             // b_pri_ads
             // 
             this.b_pri_ads.Enabled = false;
-            this.b_pri_ads.Location = new System.Drawing.Point(235, 134);
+            this.b_pri_ads.Location = new System.Drawing.Point(235, 62);
             this.b_pri_ads.Name = "b_pri_ads";
             this.b_pri_ads.Size = new System.Drawing.Size(30, 20);
             this.b_pri_ads.TabIndex = 23;
@@ -464,7 +489,7 @@
             // b_pri_local
             // 
             this.b_pri_local.Enabled = false;
-            this.b_pri_local.Location = new System.Drawing.Point(235, 111);
+            this.b_pri_local.Location = new System.Drawing.Point(235, 134);
             this.b_pri_local.Name = "b_pri_local";
             this.b_pri_local.Size = new System.Drawing.Size(30, 20);
             this.b_pri_local.TabIndex = 22;
@@ -474,7 +499,7 @@
             // b_pri_write
             // 
             this.b_pri_write.Enabled = false;
-            this.b_pri_write.Location = new System.Drawing.Point(235, 88);
+            this.b_pri_write.Location = new System.Drawing.Point(235, 108);
             this.b_pri_write.Name = "b_pri_write";
             this.b_pri_write.Size = new System.Drawing.Size(30, 20);
             this.b_pri_write.TabIndex = 21;
@@ -484,29 +509,32 @@
             // b_pri_smart
             // 
             this.b_pri_smart.Enabled = false;
-            this.b_pri_smart.Location = new System.Drawing.Point(235, 65);
+            this.b_pri_smart.Location = new System.Drawing.Point(235, 85);
             this.b_pri_smart.Name = "b_pri_smart";
             this.b_pri_smart.Size = new System.Drawing.Size(30, 20);
             this.b_pri_smart.TabIndex = 20;
             this.b_pri_smart.Text = "fix";
             this.b_pri_smart.UseVisualStyleBackColor = true;
+            this.b_pri_smart.Click += new System.EventHandler(this.b_pri_smart_Click);
             // 
             // c_pri_ads
             // 
             this.c_pri_ads.AutoSize = true;
             this.c_pri_ads.Enabled = false;
-            this.c_pri_ads.Location = new System.Drawing.Point(6, 134);
+            this.c_pri_ads.Location = new System.Drawing.Point(6, 65);
             this.c_pri_ads.Name = "c_pri_ads";
             this.c_pri_ads.Size = new System.Drawing.Size(138, 17);
             this.c_pri_ads.TabIndex = 19;
             this.c_pri_ads.Text = "Checking Advert Info....";
             this.c_pri_ads.UseVisualStyleBackColor = true;
+            this.c_pri_ads.MouseLeave += new System.EventHandler(this.c_pri_ads_MouseLeave);
+            this.c_pri_ads.MouseHover += new System.EventHandler(this.c_pri_ads_MouseHover);
             // 
             // c_pri_local
             // 
             this.c_pri_local.AutoSize = true;
             this.c_pri_local.Enabled = false;
-            this.c_pri_local.Location = new System.Drawing.Point(6, 111);
+            this.c_pri_local.Location = new System.Drawing.Point(6, 137);
             this.c_pri_local.Name = "c_pri_local";
             this.c_pri_local.Size = new System.Drawing.Size(235, 17);
             this.c_pri_local.TabIndex = 18;
@@ -517,7 +545,7 @@
             // 
             this.c_pri_write.AutoSize = true;
             this.c_pri_write.Enabled = false;
-            this.c_pri_write.Location = new System.Drawing.Point(6, 88);
+            this.c_pri_write.Location = new System.Drawing.Point(6, 114);
             this.c_pri_write.Name = "c_pri_write";
             this.c_pri_write.Size = new System.Drawing.Size(201, 17);
             this.c_pri_write.TabIndex = 17;
@@ -528,7 +556,7 @@
             // 
             this.c_pri_smart.AutoSize = true;
             this.c_pri_smart.Enabled = false;
-            this.c_pri_smart.Location = new System.Drawing.Point(6, 65);
+            this.c_pri_smart.Location = new System.Drawing.Point(6, 91);
             this.c_pri_smart.Name = "c_pri_smart";
             this.c_pri_smart.Size = new System.Drawing.Size(118, 17);
             this.c_pri_smart.TabIndex = 16;
@@ -801,34 +829,31 @@
             this.checkBox31.Text = "... Windows.old ";
             this.checkBox31.UseVisualStyleBackColor = true;
             // 
-            // toolStripButton1
+            // groupBox5
             // 
-            this.toolStripButton1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
-            this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(23, 22);
-            this.toolStripButton1.Text = "reddit thread";
-            this.toolStripButton1.Click += new System.EventHandler(this.toolStripButton1_Click_1);
+            this.groupBox5.Controls.Add(this.infotext);
+            this.groupBox5.Location = new System.Drawing.Point(18, 349);
+            this.groupBox5.Name = "groupBox5";
+            this.groupBox5.Size = new System.Drawing.Size(1049, 120);
+            this.groupBox5.TabIndex = 29;
+            this.groupBox5.TabStop = false;
+            this.groupBox5.Text = "Infobox";
             // 
-            // toolStripLabel1
+            // infotext
             // 
-            this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(51, 22);
-            this.toolStripLabel1.Text = "Licenses";
-            this.toolStripLabel1.Click += new System.EventHandler(this.toolStripLabel1_Click);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            this.infotext.AutoSize = true;
+            this.infotext.Location = new System.Drawing.Point(13, 21);
+            this.infotext.Name = "infotext";
+            this.infotext.Size = new System.Drawing.Size(0, 13);
+            this.infotext.TabIndex = 0;
             // 
             // win10privacyfix2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1071, 347);
+            this.ClientSize = new System.Drawing.Size(1071, 481);
+            this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
@@ -852,6 +877,8 @@
             this.groupBox3.PerformLayout();
             this.groupBox4.ResumeLayout(false);
             this.groupBox4.PerformLayout();
+            this.groupBox5.ResumeLayout(false);
+            this.groupBox5.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -925,6 +952,8 @@
         private System.Windows.Forms.ToolStripButton toolStripButton1;
         private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
+        private System.Windows.Forms.GroupBox groupBox5;
+        private System.Windows.Forms.Label infotext;
     }
 }
 
